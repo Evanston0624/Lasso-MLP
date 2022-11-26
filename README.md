@@ -10,7 +10,7 @@
 
 - This github using the variables selected by Lasso Regression, let the MLP performs a reduction of parameters to reduce the impact of overfitting. Before each input feature enters the model, it is multiplied by the corresponding weight \beta, and if \beta is 0, it means that the feature dimension is screened out, thereby reducing the amount of model parameters.
 
-$$ y=g(\sum_{j=1}^q w{^0_j} f ((\sum_{i=1}^p \beta{i} w{_ij} x{_j})+ b{^h_j} ) b{^0}) $$
+$$ y=g(\sum_{j=1}^q w{^0_j} f ((\sum_{i=1}^p \beta{_i} w{_i_j} x{_j})+ b{^h_j} ) b{^0}) $$
 
 
 # Run the program
