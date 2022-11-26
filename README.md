@@ -15,11 +15,6 @@ $$ y=g(\sum_{j=1}^q w{^0_j} f ((\sum_{i=1}^p \beta_{i} w_{ij} x_{j})+ b{^h_j} ) 
 
 # Run the program
 
-## Setting
-- input = ./matched_audio/, ./matched_video/
-- output = ./predict_audio_from_vid.csv, ./predict_audio.csv
-- configuration = ./requirement.txt, ./conda_list.txt, ./package_version.txt
-
 ## run steps
 - Every time you add raw data, you need to run steps 1~5
 - step1. Data preprocessing
