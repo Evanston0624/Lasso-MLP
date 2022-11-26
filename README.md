@@ -3,14 +3,14 @@
 - If you have any questions about the code, please email: g192e1654k@gmail.com
 
 # Result
-- ![image](https://github.com/Evanston0624/Lasso-MLP/edit/main/text/result/SER.png)
+- ![image](https://github.com/Evanston0624/Lasso-MLP/edit/main/result/MAE-1.png)
+- ![image](https://github.com/Evanston0624/Lasso-MLP/edit/main/result/MAE-2.png)
 
 # Introduction
-# github SOURCE : https://github.com/x4nth055/emotion-recognition-using-speech
 
 - This github using the variables selected by Lasso Regression, let the MLP performs a reduction of parameters to reduce the impact of overfitting. Before each input feature enters the model, it is multiplied by the corresponding weight \beta, and if \beta is 0, it means that the feature dimension is screened out, thereby reducing the amount of model parameters.
 
-$$ y=g(\sum_{j=1}^q w{^0_j} f ((\sum_{i=1}^p \beta{i} w{ij} x{j})+ b{^h_j} ) b{^0})
+$$ y=g(\sum_{j=1}^q w{^0_j} f ((\sum_{i=1}^p \beta{i} w{ij} x{j})+ b{^h_j} ) b{^0}) $$
 
 
 # Run the program
@@ -21,7 +21,7 @@ $$ y=g(\sum_{j=1}^q w{^0_j} f ((\sum_{i=1}^p \beta{i} w{ij} x{j})+ b{^h_j} ) b{^
 - configuration = ./requirement.txt, ./conda_list.txt, ./package_version.txt
 
 ## run steps
-- Every time you add raw data, you need to run steps 1~4
+- Every time you add raw data, you need to run steps 1~5
 - step1. Data preprocessing
 -  split_data_info_BD.py
 -  split_data_HC.py
